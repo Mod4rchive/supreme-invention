@@ -27,4 +27,3 @@ class CursoViewSet(viewsets.ModelViewSet):
 class DocumentoViewSet(viewsets.ModelViewSet):
     queryset = Documento.objects.all()
     serializer_class = DocumentoSerializer
-
